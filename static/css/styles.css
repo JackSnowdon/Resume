@@ -89,6 +89,37 @@
     background-color: #adadad;
 }
 
+/* Portfolio */
+
+.portfolio-section {
+    margin-top:-15%;
+    padding: 10%;
+}
+
+.portfolio-titles {
+    color: #ffa500;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.portfolio-section .subheading {
+    color: #3931af;
+    font-size: 20px;
+}
+
+.portfolio-section .row {
+    margin-top: 10%;
+}
+
+.how-img {
+    text-align: center;
+}
+
+.how-img img {
+    width: 40%;
+}
+
+
 /* Pulse Grow */
 
 @-webkit-keyframes hvr-pulse-grow {
