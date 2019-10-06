@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700&display=swap');
+
+/* BG Colors */
+
+.bg-color {
+    background-color: #CABDC2;
+    min-height: 100vh;
+}
+
+/* NavBar */
+
+.fixed-top {
+    padding: 3px 12px;
+}
+
+.navbar li a {
+    display: block;
+    color: #cccac4;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
+}
+
+.navbar li a:hover {
+    color: white;
+}
+
+.nav-bg {
+    background-color: #2e3129;
+}
+
+.nav-button {
+    color: #fafafa;
+}
+
+
+
+/* Class Helpers */
+
+body {
+    padding-top: 30px;
+}
