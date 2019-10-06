@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700&display=swap');
 
 /* BG Colors */
 
 .bg-color {
-    background-color: #CABDC2;
+    background-color: #f2f2f2;
     min-height: 100vh;
 }
 
@@ -25,8 +25,17 @@
 
 }
 
+.view-page:hover,
 .navbar li a:hover {
     color: white;
+}
+
+.view-page {
+    color: #ccaac3;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .nav-bg {
@@ -37,10 +46,32 @@
     color: #fafafa;
 }
 
+/* Content */
 
+.content {
+    font-family: 'Muli', sans-serif;
+}
+
+/* Eye Catchers */
+
+.eye-catcher {
+    font-weight: 700;
+    color: #fa4330;
+}
+
+/* Break */
+
+.break {
+    margin-top: -13px;
+    width: 14.5rem;
+    height: 1.5px;
+    border: 0;
+    background-color: #adadad;
+}
 
 /* Class Helpers */
 
 body {
     padding-top: 30px;
 }
+
