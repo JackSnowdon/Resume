@@ -97,7 +97,7 @@
 }
 
 .portfolio-titles {
-    color: #ffa500;
+    color: #22252a;
     font-weight: bold;
     font-size: 30px;
 }
@@ -128,12 +128,14 @@
     transform: scale(1.1);
   }
 }
+
 @keyframes hvr-pulse-grow {
   to {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
 }
+
 .hvr-pulse-grow {
   display: inline-block;
   vertical-align: middle;
@@ -141,6 +143,7 @@
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
+
 .hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
   -webkit-animation-name: hvr-pulse-grow;
   animation-name: hvr-pulse-grow;
