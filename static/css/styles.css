@@ -120,7 +120,6 @@
 }
 
 .portfolio-img {
-    width: 100%;
     height: 10rem;
 }
 
@@ -165,7 +164,16 @@
 
 /* Class Helpers */
 
-body {
+/* body {
     padding-top: 30px;
-}
+} */
 
+
+/* Media Quires */
+
+@media (max-width: 991.98px) {
+    .center-break {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+}
