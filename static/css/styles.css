@@ -176,4 +176,8 @@
         text-align: center;
         font-size: 1.2rem;
     }
+    
+    .how-img img {
+    width: 55%;
+}
 }
